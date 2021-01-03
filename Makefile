@@ -2,7 +2,7 @@ LIBRARIES = -lSDL2 -lSDL2_mixer
 NAME = SDL_Thing.output
 FILES = source/main.cpp
 #To change the output to, .exe, .AppImage or to .output when you're not on the right os change the var
-OS = Windows_MT
+OS = $(shell uname)
 #Windows_MT - for windows, Linux - for Linux, Anything else - .output
 
 ifeq ($(OS), Linux)
