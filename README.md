@@ -2,7 +2,7 @@
  Just me messing around with SDL, C++ and makefiles
 
 # requirements
-	- make
+	- make (optional)
 	- SDL2
 	- SDL2_mixer
 	- g++	
@@ -10,6 +10,12 @@
 # How to make
 	- cd into the folder
 	- do the command "make"
+
+# if you don't want to use make
+	if you don't want to use make install one of the premade files included in the relase
+	.AppImage - Linux
+	.exe - Windows
+	.output - Universal 
 
 # Linux
 	after you make the file just run .AppImage file it makes 
